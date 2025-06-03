@@ -212,7 +212,7 @@ function App() {
           </div>
         </div>
 
-        // Why Choose Us section
+        
         <section id="why-choose-us">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-3xl font-bold text-blue-600 mb-8">Why Choose Us?</h2>
