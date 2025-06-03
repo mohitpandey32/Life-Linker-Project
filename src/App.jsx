@@ -41,7 +41,7 @@ function App() {
       {/* Header */}
       <header className= " bg-white shadow-sm">
         <nav className=" max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
-          <div className=" text-2xl font-bold text-blue-600">LifeLinker</div>
+          <div className=" text-2xl font-bold text-blue-600">LIFE<span className='text-sky-500'>LINK</span><span className='text-blue-600'>R</span></div>
           <button className='cursor-pointer relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full'  onClick={() => scrollToSection('home')}>Home</button>
           <button className='cursor-pointer relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full' onClick={() => scrollToSection('why-choose-us')}>Why Choose Us</button>
           <button className='cursor-pointer relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full' onClick={() => scrollToSection('benefits')}>Benefits</button>
